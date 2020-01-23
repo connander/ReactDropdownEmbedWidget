@@ -3,12 +3,13 @@ import styles from './app.css';
 
 class Toggle extends React.Component {
   constructor(props){
-  super(props); 
+  super(props);
   this.state = {isToggleOn: false};
   this.handleClick = this.handleClick.bind(this);
   }
   
-  handleClick() {
+
+ handleClick() {
       this.setState(state => ({
           isToggleOn: !state.isToggleOn
       }));
@@ -19,7 +20,7 @@ class Toggle extends React.Component {
           <div>
           <button className="button1" onClick ={this.handleClick}>{this.state.isToggleOn ? 'Close' : 'Buy Now'}</button>
           <div style={{display: this.state.isToggleOn ? 'block' : 'none' }} className="dropdown-content">
-        <embed className="dropdown-embed" allowfullscreen="false" src="https://mealfu-standalone.bubbleapps.io/version-test/widget-mock"/>
+        <embed className="dropdown-embed" allowFullScreen={false} src="https://mealfu-standalone.bubbleapps.io/version-test/widget-mock"/>
           </div>
           </div>
       );
