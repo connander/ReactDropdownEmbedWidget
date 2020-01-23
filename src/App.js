@@ -19,7 +19,7 @@ class Toggle extends React.Component {
           <div>
           <button className="button1" onClick ={this.handleClick}>{this.state.isToggleOn ? 'Close' : 'Buy Now'}</button>
           <div style={{display: this.state.isToggleOn ? 'block' : 'none' }} className="dropdown-content">
-        <embed className="dropdown-embed" allowfullscreen="false" src="https://mealfu-standalone.bubbleapps.io/version-test/widget-mock"/>
+        <embed className="dropdown-embed" allowfullscreen="false" src="connorpstark.com"/>
           </div>
           </div>
       );
