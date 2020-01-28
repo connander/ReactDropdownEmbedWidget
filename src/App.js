@@ -1,4 +1,5 @@
 import React from 'react';
+import IframeResizer from 'iframe-resizer-react'
 import styles from './app.css';
 
 class Toggle extends React.Component {
