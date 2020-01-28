@@ -6,4 +6,6 @@
 ### Usage
 
 Embed this code into your site: 
-    <iframe src="https://quizzical-ardinghelli-34139f.netlify.com/"></iframe>
+```
+<iframe src="https://quizzical-ardinghelli-34139f.netlify.com/"></iframe>
+```
